@@ -3,7 +3,7 @@
 var redirected = false;
 (function(){
     var titleText = $('title').text();
-    var desc = $('meta[name="description"]')
+    var desc = $('meta[name="description"]').attr("content");
     var key = new RegExp(/(videos|Videos)/);
     if(titleText!='undefined'){
         if(key.test(titleText)==true){

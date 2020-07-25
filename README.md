@@ -1,5 +1,5 @@
 # chromeVideoRedirect
-Google Chrome plugin that redirects a page to www.google.com if 
+Google Chrome extension that redirects a page to www.google.com if 
 1. meta[name="description"] attribute content contains keyword videos 
 2. Title contains keyword videos.
 
